@@ -33,13 +33,17 @@ score = 0
 #Find the index of the number 9 in the list
 def Sequential_Search(lst):
 
-	return
+	for i in lst:
+		if i == 9:
+			return lst.index(i)
 
 
 #Binary Search
 #Find the index of the given number(not shown) in a sorted list
 def Binary_Search(lst, num):
 
+	while True:
+		
 	return
 
 
